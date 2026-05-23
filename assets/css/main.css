@@ -260,19 +260,33 @@ h1 {
 .course-outline,
 .course-outline ul {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  list-style-type: square;
+}
+
+.course-outline {
+  padding-left: 1.35rem;
+  font-family: "Times New Roman", "Noto Serif TC", serif;
+  font-size: 1rem;
+  line-height: 1.38;
 }
 
 .course-outline ul {
-  padding-left: 1.55rem;
+  padding-left: 1.1rem;
 }
 
 .course-outline li {
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 
 .course-outline > li {
-  margin-bottom: 14px;
+  margin-bottom: 12px;
+}
+
+.course-outline a {
+  color: #0000ee;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .site-footer {
@@ -306,7 +320,7 @@ h1 {
   }
 
   .course-outline ul {
-    padding-left: 1.25rem;
+    padding-left: 1rem;
   }
 }
 
