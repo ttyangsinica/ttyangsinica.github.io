@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Institute of Economics, Academia Sinica</p>
+      <h1>{{ page.title }}</h1>
+      <p class="lead">Tzu-Ting Yang (楊子霆) @ IEAS</p>
+      <div class="hero-actions">
+        <a class="button primary" href="{{ '/research/' | relative_url }}">Research</a>
+        <a class="button secondary" href="{{ site.author.cv | relative_url }}">CV</a>
+      </div>
+    </div>
+    <aside class="profile-panel" aria-label="Profile summary">
+      <div class="profile-mark">CPE</div>
+      <dl>
+        <div>
+          <dt>Research</dt>
+          <dd>Public Economics · Applied Econometrics</dd>
+        </div>
+        <div>
+          <dt>Contact</dt>
+          <dd><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></dd>
+        </div>
+      </dl>
+    </aside>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="wrap prose">
+    {{ content }}
+  </div>
+</section>

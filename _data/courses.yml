@@ -1,0 +1,21 @@
+- term: "Spring 2026"
+  institution: "NTU ECON"
+  courses:
+    - title: "Topics in Labor Economics: Empirical Methods and Applications"
+      title_zh: "勞動經濟學專題: 實證方法與應用"
+
+- term: "Spring 2026"
+  institution: "NCCU IMES/IDAS"
+  courses:
+    - title: "Causal Inference and Data Science in Economics"
+      title_zh: "因果推論與資料科學在經濟學上的應用"
+
+- term: "Spring 2026"
+  institution: "NTU AGEC"
+  courses:
+    - title: "Topics in Econometrics: Causal Inference and Machine Learning"
+      title_zh: "計量經濟學專論: 因果推論與機器學習"
+
+- term: "Spring 2017 to Spring 2025"
+  courses:
+    - title: "Past Courses"

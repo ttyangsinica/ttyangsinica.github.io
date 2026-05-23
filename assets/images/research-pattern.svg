@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" role="img" aria-label="Abstract research network">
+  <rect width="1400" height="800" fill="#0d3149"/>
+  <g fill="none" stroke="#f1c56d" stroke-opacity=".34" stroke-width="2">
+    <path d="M120 610 C260 410 420 470 560 260 S910 120 1120 330 1260 540 1320 210"/>
+    <path d="M80 260 C230 190 340 250 470 170 S750 90 900 220 1080 500 1310 430"/>
+    <path d="M180 720 C420 650 520 520 740 570 S1080 700 1280 600"/>
+  </g>
+  <g fill="#ffffff" fill-opacity=".26">
+    <circle cx="120" cy="610" r="9"/>
+    <circle cx="300" cy="455" r="7"/>
+    <circle cx="560" cy="260" r="10"/>
+    <circle cx="850" cy="145" r="7"/>
+    <circle cx="1120" cy="330" r="10"/>
+    <circle cx="1320" cy="210" r="8"/>
+    <circle cx="470" cy="170" r="7"/>
+    <circle cx="900" cy="220" r="8"/>
+    <circle cx="1310" cy="430" r="7"/>
+    <circle cx="740" cy="570" r="9"/>
+    <circle cx="1050" cy="650" r="7"/>
+  </g>
+</svg>

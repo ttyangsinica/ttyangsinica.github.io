@@ -1,0 +1,52 @@
+- category: "研究助理 Research Assistants"
+  people:
+    - name: "李艷娟"
+      affiliation: "台大經濟所"
+    - name: "石辰予"
+      affiliation: "政大經濟系"
+    - name: "黃柏誌"
+      affiliation: "台大經濟系"
+    - name: "張翔峻"
+      affiliation: "台大經濟所"
+    - name: "伍亦婕"
+      affiliation: "台大經濟所"
+
+- category: "碩士生 Master Students"
+  people:
+    - name: "陳亮丞"
+      affiliation: "台大經濟所"
+    - name: "蕭宇良"
+      affiliation: "台大經濟所/政大風管所"
+    - name: "施曉彤"
+      affiliation: "台大經濟所"
+    - name: "林琮汨"
+      affiliation: "台大經濟所"
+    - name: "張大均"
+      affiliation: "台大經濟所"
+    - name: "鄭郁霖"
+      affiliation: "台大經濟所"
+    - name: "黎宏濬"
+      affiliation: "台大農經所"
+    - name: "江孟桓"
+      affiliation: "台大農經所"
+
+- category: "博士生 PhD Students"
+  people:
+    - name: "張翔"
+      affiliation: "台大經濟所"
+    - name: "黃耀正"
+      affiliation: "台大經濟所"
+
+- category: "訪問博士生 Visiting PhD Students"
+  people:
+    - name: "陳冀平"
+      affiliation: "日本東北大學經濟所"
+    - name: "王冠元"
+      affiliation: "Tilburg University"
+
+- category: "昔日夥伴 Lab Alumni"
+  people:
+    - name: "研究助理"
+    - name: "碩士生"
+    - name: "博士生"
+    - name: "訪問學者/學生"
