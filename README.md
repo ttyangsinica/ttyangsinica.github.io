@@ -15,6 +15,7 @@ This is a Jekyll website for GitHub Pages. It is designed so that most updates c
 - `_data/working_papers.yml`: working papers
 - `_data/publications.yml`: publications
 - `_data/courses.yml`: current and past courses
+- `_data/labor_economics_2026.yml`: detailed schedule for the Spring 2026 labor economics course
 - `_data/members.yml`: lab members and alumni groups
 - `_data/openings.yml`: recruitment items
 
