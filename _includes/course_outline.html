@@ -1,0 +1,10 @@
+{% for item in include.items %}
+  <li>
+    {% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}{% if item.note %} {{ item.note }}{% endif %}
+    {% if item.children %}
+      <ul>
+        {% include course_outline.html items=item.children %}
+      </ul>
+    {% endif %}
+  </li>
+{% endfor %}

@@ -1,156 +1,349 @@
-title: "Topics in Labor Economics: Empirical Methods and Applications"
-title_zh: "勞動經濟學專題: 實證方法與應用"
-short_title: "Topics in Labor Economics"
-term: "Spring 2026"
-institution: "NTU ECON"
-syllabus_url: "https://www.dropbox.com"
+title: "Topics in Labor Economics (2026 Spring)"
 
-textbooks:
-  - title: "The Effect: An Introduction to Research Design and Causality"
-    authors: "Huntington-Klein, N."
-    year: "2021"
-    url: "https://theeffectbook.net/"
-  - title: "Causal Inference: The Mixtape"
-    authors: "Scott Cunningham"
-    year: "2020"
-    url: "https://www.scunning.com/mixtape.html"
-  - title: "Econometric Methods for Program Evaluation"
-    authors: "Alberto Abadie and Matias D. Cattaneo"
-    year: "2018"
-    url: "https://economics.mit.edu/people/faculty/alberto-abadie"
-  - title: "Mastering Metrics: The Path from Cause to Effect"
-    authors: "Angrist and Pischke"
-    year: "2016"
-  - title: "Mostly Harmless Econometrics"
-    authors: "Angrist and Pischke"
-    year: "2009"
-  - title: "An Introduction to Statistical Learning with Applications in R"
-    authors: "Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani"
-    year: "2017"
-    url: "https://www.statlearning.com/"
-  - title: "Labor Economics"
-    authors: "George Borjas"
-    year: "2016"
-  - title: "Labor Economics"
-    authors: "Pierre Cahuc, Stephane Carcillo, and Andre Zylberberg"
-    year: "2018"
-    url: "https://mitpress.mit.edu/9780262033169/labor-economics/"
-  - title: "Generative AI for Economic Research: Use Cases and Implications for Economists"
-    authors: "Anton Korinek"
-    year: "2023"
-    url: "https://www.aeaweb.org/articles?id=10.1257/jel.20231736"
-  - title: "AI Agents for Economic Research"
-    authors: "Anton Korinek"
-    year: "2025"
-    url: "https://www.aeaweb.org"
+outline:
+  - title: "Syllabus"
+    url: "https://www.dropbox.com/scl/fi/c2e2wkcobq7y7ben4x58s/Topic_Labor_Econ_Syllabus_2026.pdf?rlkey=27t2dythhijhm9wzjulb09t7i&dl=0"
 
-resources:
-  - title: "Stata"
-  - title: "R"
-  - title: "LaTeX (Overleaf)"
-    url: "https://www.overleaf.com/"
-  - title: "GitHub"
-    url: "https://github.com/"
+  - title: "Suggestive Textbooks"
+    children:
+      - title: "Huntington-Klein, N. (2021), The Effect: An Introduction to Research Design and Causality"
+        url: "https://theeffectbook.net/"
+      - title: "Scott Cunningham (2020), Causal Inference: The Mixtape"
+        url: "https://www.scunning.com/mixtape.html"
+      - title: "Alberto Abadie and Matias D. Cattaneo (2018), Econometric Methods for Program Evaluation"
+        url: "https://economics.mit.edu/files/14922"
+      - title: "Angrist and Pischke (2016), Mastering Metrics: The Path from Cause to Effect"
+        url: "https://www.bookdepository.com/Mastering-Metrics-Joshu-David-Angrist-Jorn-Steffen-Pischke/9780691152844?ref=grid-view"
+        note: "(MM)"
+      - title: "Angrist and Pischke (2009), Mostly Harmless Econometrics"
+        url: "https://www.bookdepository.com/Mostly-Harmless-Econometrics-JD-Angrist/9780691120355?utm_source=SV-Body&utm_medium=email-Service&utm_term=Mostly-Harmless-Econometrics_title&utm_content=order-details&utm_campaign=Order-confirmation"
+        note: "(MHE)"
+      - title: "Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani (2017), An Introduction to Statistical Learning with Applications in R"
+        url: "https://www.bookdepository.com/An-Introduction-Statistical-Learning-Gareth-James-Daniela-Witten-Trevor-Hastie-Robert-Tibshirani/9781461471370?ref=grid-view&qid=1520265802248&sr=1-1"
+      - title: "George Borjas (2016), Labor Economics"
+        url: "https://www.mheducation.com/highered/product/labor-economics-borjas/M9780078021886.html"
+        note: ", 7th Edition"
+      - title: "Pierre Cahuc, Stephane Carcillo and Andre Zylberberg (2018), Labor Economics"
+        url: "https://mitpress.mit.edu/books/labor-economics-second-edition"
+        note: ", 2nd Edition"
+      - title: "Anton Korinek (2023), Generative AI for Economic Research: Use Cases and Implications for Economists"
+        url: "https://www.aeaweb.org/articles?id=10.1257/jel.20231736"
+      - title: "Anton Korinek (2025), AI Agents for Economic Research"
+        url: "https://www.aeaweb.org/content/file?id=23290"
 
-class_data:
-  - title: "Class data and programs"
-    url: "https://www.dropbox.com"
+  - title: "Learning Resources"
+    children:
+      - title: "Stata"
+        url: "https://sites.google.com/view/cpelab/teaching/stata-learning?authuser=2"
+      - title: "R"
+        url: "https://sites.google.com/view/cpelab/teaching/r-learning?authuser=2"
+      - title: "Latex (overleaf)"
+        url: "https://sites.google.com/view/cpelab/teaching/latex-learning?authuser=2"
+      - title: "GitHub"
+        url: "https://sites.google.com/view/cpelab/teaching/github-learning?authuser=2"
 
-schedule:
-  - date: "2/25"
-    items:
-      - title: "Course Introduction"
-        url: "https://ttyangsinica.github.io/Courses_Teaching/L1_Intro/L1_Intro_labor.pdf"
-      - title: "Data Source"
-        url: "https://www.dropbox.com"
-      - title: "中研院資料申請範例"
-        url: "https://www.dropbox.com"
-  - date: "3/4"
-    items:
-      - title: "Potential Outcome Framework"
-        url: "https://ttyangsinica.github.io/Courses_Teaching/L2_PO/L2_Potential_Outcome_labor.pdf"
-      - title: "Selection Bias and Randomized Controlled Trial"
-        url: "https://ttyangsinica.github.io/Courses_Teaching/L3_SB_RCT/L3_selection_bias_RCT_labor.pdf"
-      - title: "Introduction to STATA"
-        url: "https://www.dropbox.com"
-      - title: "R Section: Introduction"
-        url: "https://www.dropbox.com"
-      - title: "R Section: Basic"
-        url: "https://www.dropbox.com"
-  - date: "3/11"
-    items:
-      - title: "Matching Methods"
-        url: "https://ttyangsinica.github.io/Courses_Teaching/L4_Matching/L4_Matching_labor.pdf"
-  - date: "3/18"
-    items:
-      - title: "Causal Machine Learning (I): Regression"
-        url: "https://ttyangsinica.github.io/Courses_Teaching/L5_Reg/L5_Regression_labor.pdf"
-  - date: "3/25"
-    items:
-      - title: "Causal Machine Learning (II): Post-Double Selection"
-        url: "https://ttyangsinica.github.io/Courses_Teaching/L6_ML/L6_ML_labor.pdf"
-      - title: "Fixed Effects Regression"
-        url: "https://ttyangsinica.github.io/Courses_Teaching/L7_FE/L7_FixedEffect_labor.pdf"
-      - title: "Compulsory Office Hour Guideline"
-        url: "https://ttyangsinica.github.io/Courses_Teaching/RQ/RQ_Guideline_labor.pdf"
-      - title: "Homework 1"
-        url: "https://ttyangsinica.github.io/Courses_Teaching/Homework/HW1_labor.pdf"
-  - date: "4/1"
-    items:
-      - title: "Difference-in-Differences Design"
-        url: "https://ttyangsinica.github.io/Courses_Teaching/L8_DID/L8_DID_labor.pdf"
-      - title: "Staggered DID Design"
-        url: "https://www.dropbox.com"
-  - date: "4/8"
-    items:
-      - title: "Synthetic Control Method"
-        url: "https://ttyangsinica.github.io/Courses_Teaching/L9_SCM/L9_SyntheticControl_labor.pdf"
-      - title: "Reading Group Presentation Guideline"
-        url: "https://ttyangsinica.github.io/Courses_Teaching/RQ/RQ_Guideline_labor.pdf"
-  - date: "4/15"
-    items:
-      - title: "Compulsory Office Hour"
-  - date: "4/22"
-    items:
-      - title: "Instrumental Variable Design"
-        url: "https://www.dropbox.com"
-  - date: "4/29"
-    items:
-      - title: "Shift-Share IV Design"
-        url: "https://www.dropbox.com"
-      - title: "Homework 2"
-        url: "https://www.dropbox.com"
-  - date: "5/6"
-    items:
-      - title: "Regression Discontinuity Design"
-        url: "https://www.dropbox.com"
-  - date: "5/13"
-    items:
-      - title: "Regression Discontinuity Design"
-        url: "https://www.dropbox.com"
-      - title: "IV and (Quasi)-Experimental Designs"
-        url: "https://www.dropbox.com"
-      - title: "Guidelines for Final Presentation"
-        url: "https://www.dropbox.com"
-      - title: "Guideline for Your Term Paper"
-        url: "https://www.dropbox.com"
-      - title: "Concluding Remarks for This Course"
-        url: "https://www.dropbox.com"
-  - date: "5/20"
-    items:
-      - title: "No Class"
-  - date: "5/27 Week"
-    items:
-      - title: "Oral Exam 2"
-  - date: "5/27"
-    items:
-      - title: "Reading Group Presentation 1"
-  - date: "6/3"
-    items:
-      - title: "Reading Group Presentation 2"
-  - date: "6/10"
-    items:
-      - title: "Final Presentation"
-  - date: "6/17"
-    items:
-      - title: "Term Paper"
+  - title: "Class Data"
+    children:
+      - title: "You can get access to the data or program used in this class through this link"
+        url: "https://www.dropbox.com/scl/fo/n9gxgvwhcpgtdhmnbqd64/AKGqqVJ5TYzxA6kSEmeHByM?rlkey=7g041fttx3fjejt1tky6nmnb6&st=92xuvevx&dl=0"
+
+  - title: "Class Slides"
+    children:
+      - title: "2/25"
+        children:
+          - title: "Course Introduction"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/L1_Intro/L1_Intro_labor.pdf"
+          - title: "Data Source"
+            url: "https://www.dropbox.com/scl/fi/l69ggnggd6gl7ig3lsa1p/P1_Data_sources_labor_2026_v1.pdf?rlkey=lo75azxhuapvalfswhygpmi3o&dl=0"
+            children:
+              - title: "中研院資料申請範例"
+                url: "https://www.dropbox.com/scl/fi/3c9bfb1496tvq47no42qw/.pdf?rlkey=39jjsd8xcm1k5xxjoz0s0jtr5&dl=0"
+
+      - title: "3/4"
+        children:
+          - title: "Potential Outcome Framework"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/L2_PO/L2_Potential_Outcome_labor.pdf"
+            children:
+              - title: "Preview Videos on The Effect"
+                children:
+                  - title: "Ep 21: Treatment Effects"
+                    url: "https://youtu.be/MzfMaODuHGI?si=_l28-OXvec2lCLjL"
+                  - title: "Ep 22: Conditional Average Treatment Effects"
+                    url: "https://youtu.be/_kZPZExnbno?si=Miw7LQ5b-dNFdV5H"
+          - title: "Selection Bias and Randomized Controlled Trial"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/L3_SB_RCT/L3_selection_bias_RCT_labor.pdf"
+          - title: "STATA Section"
+            children:
+              - title: "Introduction to STATA"
+                url: "https://www.dropbox.com/s/qrwhd1vrq8jlpzv/P1_intro_STATA_v5.pdf?dl=0"
+              - title: "Stata Learning Resources"
+                url: "https://sites.google.com/view/cpelab/teaching/stata-learning?authuser=2"
+          - title: "R Section"
+            children:
+              - title: "Introduction"
+                url: "https://www.dropbox.com/scl/fi/g56rj63fhazkvmyx8r2pk/R_C1_intro_v7.pdf?rlkey=55hrjm018r9l5tgkwvvwezhk7&dl=0"
+              - title: "Basic"
+                url: "https://www.dropbox.com/s/dehazj7bbmwerrz/R_C2_basic_v7.pdf?dl=0"
+              - title: "R Learning Resources"
+                url: "https://sites.google.com/view/cpelab/teaching/r-learning?authuser=2"
+
+      - title: "3/11"
+        children:
+          - title: "Matching Methods"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/L4_Matching/L4_Matching_labor.pdf"
+            children:
+              - title: "Preview Videos on The Effect"
+                children:
+                  - title: "Ep 35: Matching"
+                    url: "https://www.youtube.com/watch?v=nRfRswoZlqo&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=35"
+                  - title: "Ep 36: Five Questions About Matching"
+                    url: "https://www.youtube.com/watch?v=bafdI39LcoE&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=36"
+                  - title: "Ep 37: Distance Matching"
+                    url: "https://www.youtube.com/watch?v=wMQTuRX3XmM&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=37"
+                  - title: "Ep 38: Propensity Score Matching"
+                    url: "https://www.youtube.com/watch?v=1T3JYjhrNwE&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=38"
+
+      - title: "3/18"
+        children:
+          - title: "Causal Machine Learning (I): Regression"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/L5_Reg/L5_Regression_labor.pdf"
+            children:
+              - title: "Preview Videos on The Effect"
+                children:
+                  - title: "Ep 25: Regression and The Error Term"
+                    url: "https://www.youtube.com/watch?v=0Aukw3CdB-Q&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=25"
+                  - title: "Ep 26: Regression and Sampling Variation"
+                    url: "https://www.youtube.com/watch?v=rLp0i2A006w&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=26"
+                  - title: "Ep 27: Reading Regression Tables"
+                    url: "https://www.youtube.com/watch?v=lhmxz0qR6Kg&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=27"
+                  - title: "Ep 28: Interpreting a Regression Coefficient"
+                    url: "https://www.youtube.com/watch?v=EcSagvjcUo0&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=28"
+                  - title: "Ep 29: Polynomials in Regression"
+                    url: "https://www.youtube.com/watch?v=myk1YZbKDYw&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=29"
+                  - title: "Ep 30: Logarithms in Regression"
+                    url: "https://www.youtube.com/watch?v=M6L1mk59ZiU&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=30"
+                  - title: "Ep 31: Categorical Predictors"
+                    url: "https://www.youtube.com/watch?v=NXpwHt_88c4&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=31"
+                  - title: "Ep 32: Interaction Terms"
+                    url: "https://www.youtube.com/watch?v=mD9hSCfcd-o&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=32"
+                  - title: "Ep 33: Your Standard Errors are Wrong"
+                    url: "https://www.youtube.com/watch?v=BbP1HfXiITs&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=33"
+
+      - title: "3/25"
+        children:
+          - title: "Causal Machine Learning (II): Post-Double Selection"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/L6_ML/L6_ML_labor.pdf"
+          - title: "Fixed Effects Regression"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/L7_FE/L7_FixedEffect_labor.pdf"
+            children:
+              - title: "Preview Videos on The Effect"
+                children:
+                  - title: "Fixed Effects"
+                    url: "https://www.youtube.com/watch?v=Z1QmFuPV9JA&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=45"
+                  - title: "Estimating Fixed Effects"
+                    url: "https://www.youtube.com/watch?v=2Kz1g0RoTtI&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=46"
+          - title: "Compulsory Office Hour (held on 4/15)"
+            children:
+              - title: "Guideline"
+                url: "https://ttyangsinica.github.io/Courses_Teaching/RQ/RQ_presentation_labor.pdf"
+              - title: "Please book a slot: here"
+                url: "https://calendar.app.google/ph5WLL2zCFYTo6WK9"
+              - title: "Please upload your slides: here"
+                url: "https://www.dropbox.com/request/ZeBgB1xV6ntnQ8JszF5R"
+          - title: "Homework 1"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/Homework/HW1_labor.pdf"
+            note: "(due on 4/21)"
+            children:
+              - title: "The format of answer sheet: here"
+                url: "https://www.overleaf.com/read/jngzkvfpbbfj#936623"
+              - title: "Stata Learning Resources"
+                url: "https://sites.google.com/view/cpelab/teaching/stata-learning?authuser=2"
+              - title: "R Learning Resources"
+                url: "https://sites.google.com/view/cpelab/teaching/r-learning?authuser=2"
+          - title: "Latex Template"
+            children:
+              - title: "Slides: here"
+                url: "https://www.overleaf.com/read/bgtvphrwmgbm"
+              - title: "Term Paper: here"
+                url: "https://www.overleaf.com/read/dnpkwxqyxxyj"
+              - title: "本機端執行的tex檔: here"
+                url: "https://www.dropbox.com/scl/fo/0wle84tkvdo1t734jpy6d/h?rlkey=q62lqvgy4x78tcymffucpr5v4&dl=0"
+
+      - title: "4/1"
+        children:
+          - title: "Difference-in-Differences Design"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/L8_DID/L8_DID_labor.pdf"
+            children:
+              - title: "Preview Videos on The Effect"
+                children:
+                  - title: "Difference in Differences"
+                    url: "https://www.youtube.com/watch?v=ggYnrOGG97o&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=51"
+                  - title: "Parallel Trends"
+                    url: "https://www.youtube.com/watch?v=NcHT8pl57HY&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=52"
+                  - title: "Estimating Difference in Differences"
+                    url: "https://www.youtube.com/watch?v=95HxUdn-BJg&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=53"
+                  - title: "Supporting Parallel Trends"
+                    url: "https://www.youtube.com/watch?v=ihIWuC6ULjo&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=54"
+                  - title: "Dynamic Difference-in-Differences"
+                    url: "https://www.youtube.com/watch?v=_nknBbw-HFQ&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=55"
+
+      - title: "4/8"
+        children:
+          - title: "Synthetic Control Method"
+            url: "https://www.dropbox.com/scl/fi/wb5hscuu6hnd7ig4cqzlw/SCM.pdf?rlkey=ajvu2c22nebftd9sfphfuakk8&dl=0"
+            children:
+              - title: "Preview Videos on The Effect"
+                children:
+                  - title: "Other Standard Research Designs"
+                    url: "https://www.youtube.com/watch?v=csEV78U367Y&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=65"
+          - title: "Reading Group Presentation (2-3 people)"
+            children:
+              - title: "Guideline"
+                url: "https://ttyangsinica.github.io/Courses_Teaching/Reading_list/Reading_list_labor.pdf"
+              - title: "Please sign up: here"
+                url: "https://docs.google.com/spreadsheets/d/10x56ko14VCkdqfcfgPh3LDjSNWkeH06k/edit?usp=sharing&ouid=103679562262226486264&rtpof=true&sd=true"
+          - title: "Staggered DID Design"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/L14_Stag_DID/L14_Stag_DID_labor.pdf"
+            children:
+              - title: "Preview Videos on The Effect"
+                children:
+                  - title: "Staggered Treatment in Difference-in-Differences"
+                    url: "https://www.youtube.com/watch?v=hu2nDbnpALA&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=56"
+
+      - title: "4/15"
+        children:
+          - title: "Compulsory Office Hour"
+
+      - title: "4/22"
+        children:
+          - title: "Instrumental Variable Design"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/L10_IV/L10_IV_labor.pdf"
+            children:
+              - title: "Preview Videos on The Effect"
+                children:
+                  - title: "Ep 57: Instrumental Variables"
+                    url: "https://www.youtube.com/watch?v=bfQgLnFdLSg"
+                  - title: "Ep 58: Instrumental Variable Validity"
+                    url: "https://www.youtube.com/watch?v=HL8jR9CDlfA"
+                  - title: "Ep 59: Estimating Instrumental Variables"
+                    url: "https://www.youtube.com/watch?v=DjLXqFTvVWg"
+                  - title: "Ep 60: Testing Instrumental Variables Assumptions"
+                    url: "https://www.youtube.com/watch?v=B8MUeudCoWo&list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&index=60"
+
+      - title: "4/29"
+        children:
+          - title: "Shift-Share IV Design"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/L11_SSIV/L11_ShiftShareIV_labor.pdf"
+          - title: "Homework 2"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/Homework/HW2_labor.pdf"
+            note: "(due on 5/17, 11:00pm)"
+            children:
+              - title: "Please upload your answer sheet and R script to here"
+              - title: "The format of answer sheet: here"
+                url: "https://www.overleaf.com/read/jngzkvfpbbfj#936623"
+
+      - title: "5/6"
+        children:
+          - title: "Regression Discontinuity Design"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/L12_RDD/L12_RDD_labor.pdf"
+          - title: "Preview Videos on The Effect"
+            children:
+              - title: "Ep 61: Regression Discontinuity"
+                url: "https://www.youtube.com/watch?v=5FM4-xbaS58"
+              - title: "Ep 62: Estimating Regression Discontinuity"
+                url: "https://www.youtube.com/watch?v=FPBQL0OKmI0"
+              - title: "Ep 63: Adjustments to Regression Discontinuity"
+                url: "https://www.youtube.com/watch?v=3HazJ8Tv6d0"
+              - title: "Ep 64: Checking Regression Discontinuity Assumptions"
+                url: "https://www.youtube.com/watch?v=WJ7j08xVegY"
+
+      - title: "5/13"
+        children:
+          - title: "Regression Discontinuity Design"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/L12_RDD/L12_RDD_labor_v5.pdf"
+          - title: "Causal Forest"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/L13_CausalForest/L13_CausalForest_labor_v5.pdf"
+          - title: "Guidelines for Final Presentation"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/Final/Final_presentations_labor.pdf"
+          - title: "Guideline for Your Term Paper"
+            url: "https://ttyangsinica.github.io/Courses_Teaching/Final/Term_Paper_labor.pdf"
+          - title: "Oral Exam"
+            note: "(held during 5/27 week)"
+            children:
+              - title: "Guideline"
+                url: "https://ttyangsinica.github.io/Courses_Teaching/Final/Oral_Exam_labor_v2.pdf"
+
+      - title: "5/20"
+        children:
+          - title: "No Class"
+
+      - title: "5/27 Week"
+        children:
+          - title: "Oral Exam 2"
+
+      - title: "5/27"
+        children:
+          - title: "Reading Group Presentation 1"
+            children:
+              - title: "Upload your team's slides: link"
+                url: "https://www.dropbox.com/request/yFekVv6WEzgVmXAD3Gw6"
+              - title: "Download slides: link"
+                url: "https://www.dropbox.com/scl/fo/9lvfhzuod0jjdq30dw5g8/h?rlkey=yokx7ybjoxsv59zuc7bdssv7b&dl=0"
+              - title: "Presentation order: link"
+              - title: "Peer evaluation: link"
+
+      - title: "6/3"
+        children:
+          - title: "Reading Group Presentation 2"
+            children:
+              - title: "Upload your team's slides: link"
+                url: "https://www.dropbox.com/request/yFekVv6WEzgVmXAD3Gw6"
+              - title: "Download slides: link"
+                url: "https://www.dropbox.com/scl/fo/9lvfhzuod0jjdq30dw5g8/h?rlkey=yokx7ybjoxsv59zuc7bdssv7b&dl=0"
+              - title: "Presentation order: link"
+              - title: "Peer evaluation: link"
+
+      - title: "6/10"
+        children:
+          - title: "Final Presentation"
+            children:
+              - title: "Guidelines for Final Presentation"
+                url: "https://ttyangsinica.github.io/Courses_Teaching/Final/Final_presentations_labor.pdf"
+              - title: "Upload your slides: link"
+                url: "https://www.dropbox.com/request/uwvsM3MpVwkzKcBOIiC3"
+              - title: "Download slides: link"
+                url: "https://www.dropbox.com/scl/fo/pqt9ba0g7yzueblk196lo/h?rlkey=jyy2q8gj9vxhgx1ux70j7mu3c&dl=0"
+              - title: "Presentation order: link"
+                url: "https://docs.google.com/spreadsheets/d/1BsLau1Bpt3rxZ_7XhPUWw5PST5OBe0jncepI8PPYnXs/edit?usp=sharing"
+              - title: "Peer evaluation: link"
+                url: "https://forms.gle/RRUCGbSVHmJe586f9"
+
+      - title: "6/17"
+        children:
+          - title: "Term Paper"
+            note: "(due on 6/17)"
+            children:
+              - title: "Guideline for Your Term Paper"
+                url: "https://ttyangsinica.github.io/Courses_Teaching/Final/Term_Paper_labor.pdf"
+              - title: "Upload your paper: link"
+                url: "https://www.dropbox.com/request/K85hNI7aAfR5UBSXzHMb"
+              - title: "Latex Template"
+                children:
+                  - title: "本機端執行的tex檔: here"
+                    url: "https://www.dropbox.com/scl/fo/0wle84tkvdo1t734jpy6d/h?rlkey=q62lqvgy4x78tcymffucpr5v4&dl=0"
+                  - title: "Overleaf端執行的tex檔: here"
+                    url: "https://www.overleaf.com/read/dnpkwxqyxxyj"
+              - title: "Term Paper Example"
+                children:
+                  - title: "Example 1: here"
+                    url: "https://www.dropbox.com/scl/fi/ztf8m1mw2t2c1ga18blwq/Job-Loss_Health__Tzu_Ting_v42.pdf?rlkey=vwi7e9kuxq32yyfaia9lab1wd&dl=0"
+                  - title: "Example 2: here"
+                    url: "https://www.dropbox.com/scl/fi/apj97gc8w3mp5cony2imo/1-s2.0-S0165176523004767-main.pdf?rlkey=2022elv16gbie4m8xjxjleqyn&dl=0"
+              - title: "Table Template"
+                children:
+                  - title: "Example 1: here"
+                    url: "https://www.overleaf.com/read/xkmzjvywvdcc#ddf7f0"
+              - title: "Equation Template"
+                children:
+                  - title: "Example 1: here"
+                    url: "https://www.overleaf.com/read/hyvdvqbhybys#24ab43"
