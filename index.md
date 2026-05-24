@@ -11,6 +11,9 @@ More information about me can be found on this website and in my [CV]({{ site.au
 
 Public Economics and Applied Econometrics
 
-## Contact Information
+## Selected Links
 
-Email: [{{ site.author.email }}](mailto:{{ site.author.email }})
+- [Research]({{ '/research/' | relative_url }})
+- [Teaching]({{ '/teaching/' | relative_url }})
+- [Members]({{ '/members/' | relative_url }})
+- [Join us]({{ '/join-us/' | relative_url }})

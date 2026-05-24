@@ -2,35 +2,28 @@
 layout: default
 ---
 
-<section class="hero">
-  <div class="wrap hero-grid">
-    <div class="hero-copy">
-      <p class="eyebrow">Institute of Economics, Academia Sinica</p>
-      <h1>{{ page.title }}</h1>
-      <p class="lead">Tzu-Ting Yang (楊子霆) @ IEAS</p>
-      <div class="hero-actions">
-        <a class="button primary" href="{{ '/research/' | relative_url }}">Research</a>
-        <a class="button secondary" href="{{ site.author.cv | relative_url }}">CV</a>
-      </div>
-    </div>
-    <aside class="profile-panel" aria-label="Profile summary">
-      <div class="profile-mark">CPE</div>
-      <dl>
-        <div>
-          <dt>Research</dt>
-          <dd>Public Economics · Applied Econometrics</dd>
-        </div>
-        <div>
-          <dt>Contact</dt>
-          <dd><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></dd>
-        </div>
-      </dl>
-    </aside>
-  </div>
-</section>
+<section class="academic-home">
+  <div class="wrap academic-grid">
+    <aside class="academic-sidebar" aria-label="Profile">
+      <img class="profile-photo" src="{{ '/assets/images/google-site-image-1.jpg' | relative_url }}" alt="Tzu-Ting Yang">
+      <h1 class="sidebar-name">{{ site.author.name }}</h1>
+      <p class="sidebar-name-zh">{{ site.author.name_zh }}</p>
+      <p class="sidebar-bio">Faculty member at the Institute of Economics, Academia Sinica.</p>
 
-<section class="content-section">
-  <div class="wrap prose">
-    {{ content }}
+      <ul class="profile-links">
+        <li><span class="profile-icon" aria-hidden="true">●</span>{{ site.author.location }}</li>
+        <li><span class="profile-icon" aria-hidden="true">◆</span>{{ site.author.affiliation }}</li>
+        <li><span class="profile-icon" aria-hidden="true">@</span><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+        <li><span class="profile-icon" aria-hidden="true">CV</span><a href="{{ site.author.cv | relative_url }}">Curriculum Vitae</a></li>
+      </ul>
+
+      <img class="institute-logo" src="{{ '/assets/images/google-site-image-2.jpg' | relative_url }}" alt="Institute of Economics, Academia Sinica">
+    </aside>
+
+    <article class="academic-main prose">
+      <p class="academic-kicker">Causality & Policy Evaluation</p>
+      <h2>{{ page.title }}</h2>
+      {{ content }}
+    </article>
   </div>
 </section>
