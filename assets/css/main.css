@@ -54,12 +54,11 @@ a {
   text-decoration: none;
 }
 
-.brand-title {
+.header-logo {
   display: block;
-  color: #333;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.25;
+  width: 250px;
+  max-width: 42vw;
+  height: auto;
 }
 
 .site-nav {
@@ -123,22 +122,6 @@ a {
   object-fit: cover;
   border-radius: 50%;
   margin: 0 0 18px;
-}
-
-.sidebar-lab-mark {
-  margin: 18px 0 2px;
-  color: #333;
-  font-size: 1.05rem;
-  font-weight: 700;
-  letter-spacing: 0;
-}
-
-.sidebar-lab-name {
-  margin: 0 0 14px;
-  color: #333;
-  font-size: 0.96rem;
-  font-weight: 700;
-  line-height: 1.3;
 }
 
 .sidebar-name {
