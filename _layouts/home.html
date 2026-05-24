@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<section class="academic-home">
-  <div class="wrap academic-grid">
-    <aside class="academic-sidebar" aria-label="Profile">
+<div class="academic-shell">
+  <div class="academic-grid">
+    <aside class="academic-sidebar sticky" aria-label="Profile">
       <img class="profile-photo" src="{{ '/assets/images/google-site-image-1.jpg' | relative_url }}" alt="Tzu-Ting Yang">
-      <h1 class="sidebar-name">{{ site.author.name }}</h1>
+      <h2 class="sidebar-name">{{ site.author.name }}</h2>
       <p class="sidebar-name-zh">{{ site.author.name_zh }}</p>
       <p class="sidebar-bio">Faculty member at the Institute of Economics, Academia Sinica.</p>
 
@@ -21,9 +21,8 @@ layout: default
     </aside>
 
     <article class="academic-main prose">
-      <p class="academic-kicker">Causality & Policy Evaluation</p>
-      <h2>{{ page.title }}</h2>
+      <h1 class="page-title">{{ page.title }}</h1>
       {{ content }}
     </article>
   </div>
-</section>
+</div>
