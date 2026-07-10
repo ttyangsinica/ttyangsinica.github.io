@@ -37,11 +37,19 @@ body.home-page .hero__content h1 {
   margin-top: 2rem;
 }
 
+.content__entry h3 {
+  color: #333333;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-top: 1.5rem;
+}
+
 .content__entry ul {
   list-style-type: square;
 }
 .content__entry ul ul {
   list-style-type: disc;
+  margin-top: 0.2rem;
 }
 
 .home-subtitle {
@@ -51,10 +59,23 @@ body.home-page .hero__content h1 {
   margin: 0 0 1.75rem;
 }
 
-.home-photo {
-  float: left;
-  margin: 0 1.75rem 1rem 0;
+.home-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.75rem;
+}
+.home-flex .home-photo {
+  flex: 0 0 auto;
+  margin: 0;
   max-width: 270px;
+}
+.home-flex .home-intro {
+  flex: 1 1 320px;
+  min-width: 260px;
+}
+.home-flex .home-intro > :first-child {
+  margin-top: 0;
 }
 
 .predoc-title {
@@ -64,12 +85,16 @@ body.home-page .hero__content h1 {
   margin: 0.35rem 0;
 }
 
+.navbar .navbar__menu > li > a,
+.navbar .navbar__menu > li > span[role=button] {
+  border-bottom: 3px solid transparent;
+  padding-bottom: 0.3rem;
+}
 .navbar .navbar__menu > li.active > a,
 .navbar .navbar__menu > li.active > span[role=button] {
-  background: #1a1a1a;
-  color: #ffffff !important;
-  border-radius: 999px;
-  padding: 0.35em 1em;
+  color: #1155cc;
+  font-variation-settings: "wght" 700;
+  border-bottom-color: #1155cc;
 }
 .navbar .navbar__menu > li.active-parent > a {
   color: #1155cc;
